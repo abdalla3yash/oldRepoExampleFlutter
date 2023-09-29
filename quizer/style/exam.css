@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+}
+
+#myProgress {
+    width: 100%;
+    background-color: #f6f1e3;
+    border-radius: 10px;
+}
+
+#myBar {
+    width: 1%;
+    height: 10px;
+    background-color: #e9b93a;
+    border-radius: 10px;
+}
+
+.question {
+    height: 10px;
+    padding: 5px;
+    width: 80%;
+}
+
+.Q_btn {
+    display: flex;
+    margin-left: 40px;
+}
+
+.que-mark {
+    display: flex;
+}
+
+.mark {
+    width: 20%;
+    height: 520px;
+    background-color: #f3d19a;
+    color: black;
+    padding: 10px;
+}
+
+#ques {
+    height: 450px;
+}
+
+#qus-containe {
+    height: 150px;
+    color: black;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    padding-top: 20px;
+    font-family: sans-serif;
+}
+
+#choice-container {
+    display: grid;
+    width: 700px;
+    margin-left: 250px;
+}
+
+#choice-container button {
+    height: 70px;
+    color: black;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+#markedQuestion {
+    color: #e9b93a;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+
+#choice-container button.option:hover {
+    cursor: pointer;
+    background-color: #e9b93a;
+    color: white;
+}
+
+.markDiv1 {
+    color: black;
+    background-color: #e9b93a;
+    border-color: #e9b93a;
+    text-align: center;
+    font-size: 26px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+}
+
+button {
+    background-color: white;
+    border-color: grey;
+    border-width: 1px;
+    color: black;
+    font-size: 16px;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+
+#question-number {
+    color: white;
+    font-size: 20px;
+    padding: 13px 15px;
+    margin: 10px 0;
+    width: 40px;
+    height: 48px;
+    background-color: #2596be;
+    border-color: grey;
+}
+
+#prev {
+    margin-left: 300px;
+}
+
+#markbtn {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    color: black;
+    margin-left: 100px
+}
+
+#sub {
+    background-color: #2d9f45;
+    border-color: #2d9f45;
+    color: white;
+    width: 125%;
+}

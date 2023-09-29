@@ -1,0 +1,186 @@
+*,
+ ::after,
+ ::before {
+    box-sizing: border-box;
+}
+
+.mydiv {
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: #efefef;
+    font-size: 16px;
+    color: #333;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.sp {
+    color: #750a0a;
+    font-size: 12px;
+    float: right;
+    display: none;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #333;
+    background-image: url(../img/background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box {
+    position: relative;
+    width: 40rem;
+    height: 25rem;
+    box-shadow: 0 .2rem .4rem rgba(0, 0, 0, .6);
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+
+.login-box .left-box,
+.login-box .right-box {
+    width: 50%;
+    padding: 2rem 3rem;
+    height: 100%;
+    border-radius: .4rem;
+    -webkit-border-radius: .4rem;
+    -moz-border-radius: .4rem;
+    -ms-border-radius: .4rem;
+    -o-border-radius: .4rem;
+}
+
+.login-box .left-box {
+    float: left;
+    background-color: rgba(255, 255, 255, .8);
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.login-box .right-box {
+    float: right;
+    background-color: rgba(0, 0, 0, .8);
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login-box h1 {
+    margin: 2rem 0 1.5rem 0;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 2rem;
+}
+
+.login-box input[type="text"],
+.login-box input[type="email"],
+.login-box input[type="password"] {
+    display: block;
+    margin-bottom: 1.5rem;
+    padding: .4rem;
+    width: 100%;
+    height: 2rem;
+    border: none;
+    border-bottom: .01rem solid #aaa;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: .8rem;
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+}
+
+.login-box button[type="submit"] {
+    margin-top: 5rem;
+    margin-bottom: 1.5rem;
+    width: 50%;
+    height: 2rem;
+    background: #e9b93a;
+    border: none;
+    border-radius: .2rem;
+    -webkit-border-radius: .2rem;
+    -moz-border-radius: .2rem;
+    -ms-border-radius: .2rem;
+    -o-border-radius: .2rem;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+    cursor: pointer;
+}
+
+.login-box button[type="submit"]:hover,
+.login-box button[type="submit"]:focus {
+    background: #f3d19a;
+    transition: .2s ease;
+    -webkit-transition: .2s ease;
+    -moz-transition: .2s ease;
+    -ms-transition: .2s ease;
+    -o-transition: .2s ease;
+}
+
+.login-box .signinwith {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 .2rem .4rem rgba(0, 0, 0, .6);
+}
+
+.another-link {
+    position: absolute;
+    display: inline-block;
+    bottom: -1.5rem;
+    left: 50%;
+    font-size: .8rem;
+    font-weight: 900;
+    color: #fff;
+    text-shadow: 0 0 .4rem rgba(0, 0, 0, 1);
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+.text {
+    color: white;
+    margin-top: 10rem;
+    font-size: 0.8rem;
+    text-shadow: 0 0 .4rem rgba(0, 0, 0, 1);
+    padding-bottom: 300px;
+}
+
+.another-link a {
+    color: #efefef;
+}

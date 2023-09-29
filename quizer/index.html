@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Quizer</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="login-box" name="regForm">
+            <div class="left-box">
+                <h1>Sign Up</h1>
+                <span class="sp" id="sp1">*Enter Valid Name</span>
+                <input type="text" id="firstname" placeholder="First Name" required>
+
+                <span class="sp" id="sp2">*Enter Valid Name</span>
+                <input type="text" id="lastname" placeholder="Last Name" required>
+
+                <span class="sp" id="sp3">*Enter Valid Email</span>
+                <input type="email" id="email" placeholder="Email Address" required>
+                <span class="sp" id="sp4">*Enter Valid password</span>
+                <input type="password" id="password" placeholder="Password" required>
+                <span class="sp" id="sp5">*Confirm password</span>
+                <input type="password" id="password_confirm" placeholder="Password Confirm" required>
+
+            </div>
+            <div class="right-box">
+                <span class="signinwith">Welcome to<br>Quizer</span>
+                <span class="text">Quizer is Our Examination System Project, Developing your intelligence to get the
+                    highest
+                    memory rate with our program</span>
+                <span class="text">...Are you Ready!</span>
+                <button type="submit" name="signup-button" onclick="return validation()">Sign Up</button>
+
+
+
+            </div>
+            <div class=" another-link">Copyright 2022 © Abdalla Ayash
+            </div>
+
+        </div>
+    </div>
+    <script src="js/register.js"></script>
+</body>
+
+</html>

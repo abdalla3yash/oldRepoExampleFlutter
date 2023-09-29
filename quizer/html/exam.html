@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/exam.css">
+    <title>Exam Page</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="que-mark">
+            <div class="question">
+                <div id="ques">
+                    <div id="myProgress">
+                        <div id="myBar"></div>
+                    </div>
+                    <div id="qus-containe">
+
+                    </div>
+                    <div id="choice-container">
+
+                        <button id="frst" class="option" onclick=" checkedAnswer(event)"></button>
+                        <button id="sec" class="option" onclick=" checkedAnswer(event)"></button>
+                        <button id="thrd" class="option" onclick=" checkedAnswer(event)"></button>
+
+                    </div>
+                </div>
+                <div class="btn">
+                    <div class="Q_btn">
+
+                        <div>
+                            <button id="prev" onclick="qPrev()"> Previous </button>
+                        </div>
+                        <div id="question-number"></div>
+                        <div>
+                            <button id="next" onclick="qNext()"> Next </button>
+                        </div>
+                        <div>
+                            <button id="markbtn" onclick="qMark()"> mark </button>
+                        </div>
+                    </div>
+                    <div class="sub">
+                        <button id="sub" onclick="Submit()"> Submit </button>
+                    </div>
+                </div>
+            </div>
+            <div class="mark">
+
+                <div id="markedQuestion">
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+    <script src="../js/exam.js"></script>
+</body>
+
+</html>

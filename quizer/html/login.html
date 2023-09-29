@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in Quizer</title>
+    <link rel="stylesheet" href="../style/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="mydiv">
+            <div class="login-box">
+
+                <form name="logForm" action="exam.html" onsubmit="return valid(event)">
+                    <div class="left-box">
+
+                        <h1>Sign In</h1>
+                        <div class="EmailInput">
+                            <span class="sp" id="em"> * required</span>
+                            <input type="email" name="email" id="email" placeholder="your Email">
+                        </div>
+
+                        <div class="passInput">
+                            <span class="sp" id="ps">* required</span>
+                            <input type="password" name="psw" id="pass" placeholder="Enter Your Password">
+                        </div>
+
+                        <button type="submit" id="log" name="signin-button">Login</button>
+
+                    </div>
+                </form>
+                <div class="right-box">
+                    <span class="signinwith">Welcome to<br>Quizer</span>
+                    <span class="text">Quizer is Our Examination System Project, Developing your intelligence to get the
+                        highest
+                        memory rate with our program</span>
+                    <span class="text">...Are you Ready!</span>
+
+
+                </div>
+                <div class=" another-link">Copyright 2022 © Abdalla Ayash
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>
