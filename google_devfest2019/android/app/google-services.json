@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "418612778218",
+    "firebase_url": "https://elkhanka-edf58.firebaseio.com",
+    "project_id": "elkhanka-edf58",
+    "storage_bucket": "elkhanka-edf58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:418612778218:android:509f186c08f894858e3393",
+        "android_client_info": {
+          "package_name": "com.example.use"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "418612778218-d43padfj708e3f77iilohippe0vj28so.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.use",
+            "certificate_hash": "7b4a940d2f660b6ce9eb506fbddfd451bcfef169"
+          }
+        },
+        {
+          "client_id": "418612778218-8tubp831bfdlferaeoi3eb3dsehdganh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcxp8ib5a7dDMuq_nadsv_ZCwkL6QLdRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "418612778218-8tubp831bfdlferaeoi3eb3dsehdganh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
