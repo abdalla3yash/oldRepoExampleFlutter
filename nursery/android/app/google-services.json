@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "118969283801",
+    "firebase_url": "https://baby-8086d.firebaseio.com",
+    "project_id": "baby-8086d",
+    "storage_bucket": "baby-8086d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:118969283801:android:6c274d575cce93f2637ac8",
+        "android_client_info": {
+          "package_name": "com.ayash.nursery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "118969283801-ajes32d60inshbptmqkp180ckkj55qm4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ayash.nursery",
+            "certificate_hash": "7b4a940d2f660b6ce9eb506fbddfd451bcfef169"
+          }
+        },
+        {
+          "client_id": "118969283801-g6j8ih3rtj1bpk8c6d83ff0bj5itrvto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBhtlvZoaebJu88FUU5eWmGDbus2ITa1Bw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "118969283801-g6j8ih3rtj1bpk8c6d83ff0bj5itrvto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
