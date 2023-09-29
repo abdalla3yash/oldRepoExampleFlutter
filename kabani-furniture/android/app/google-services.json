@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "897865521982",
+    "project_id": "lc-app-197ad",
+    "storage_bucket": "lc-app-197ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:897865521982:android:38752d2b7fa082407d2a6f",
+        "android_client_info": {
+          "package_name": "com.example.lc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "897865521982-pliouipka93rfno72tv5dfm9sf4m04ps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lc",
+            "certificate_hash": "7b4a940d2f660b6ce9eb506fbddfd451bcfef169"
+          }
+        },
+        {
+          "client_id": "897865521982-22148leh766rudfndiurls6hja1r6kkm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHJm9puVmV1L_LBY1e96oUKVSK6uh6mR0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "897865521982-22148leh766rudfndiurls6hja1r6kkm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
